@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    height: 1500px;
+    width: 1895px;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: white;
+    align-items: center;
+    margin-left: 200px;
+    gap: 25px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar .MA{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 350px;
+    font-size: 16px;
+}
+
+.navbar a{
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.C {
+    margin-right: 350px;
+}
+
+.navbar .F{
+    color: darkgrey;
+}
+.navbar .P{
+    color: darkgrey;
+}
+.navbar .S{
+    color: darkgrey;
+}
+.navbar .Pl{
+    color: darkgrey;
+}
+
+/*.hero margin-left ändern! mehr oder weniger, einfach schauen*/
+
+.hero{
+    padding: 10px;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.Text{
+    display: grid;
+    width: 430px;
+}
+
+.Link180{
+    background-color: rgb(195, 177, 225);
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    width: 210px;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h1Fett{
+    font-weight: 900;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pGrau{
+    color: grey;
+    margin-top: 20px;
+}
+
+.Bblau{
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+.Bgrau{
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+.paymentBild{
+width: 500px;
+height: 300px;
+border-radius: 15px;
+border: solid black 5px;
+margin-left: 100px;
+}
